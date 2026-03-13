@@ -148,7 +148,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
-                  "catalogo": "catalog_au",
+                  "catalogo": "catalog_smartdata",
                   "esquema": "bronze",
                   "storageName": "adlssmartdata1702"
                 }
