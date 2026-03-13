@@ -170,7 +170,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
-                  "catalogo": "catalog_au",
+                  "catalogo": "catalog_smartdata",
                   "esquema": "bronze",
                   "storageName": "adlssmartdata1702"
                 }
@@ -191,7 +191,7 @@ jobs:
                 "notebook_path": "/proyecto/smartdata/Transform",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                    "catalogo": "catalog_au",
+                    "catalogo": "catalog_smartdata",
                     "esquema_sink": "silver",
                     "esquema_source": "bronze"
                 }
@@ -215,7 +215,7 @@ jobs:
                 "notebook_path": "/proyecto/smartdata/Load",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                  "catalogo": "catalog_au",
+                  "catalogo": "catalog_smartdata",
                   "esquema_sink": "golden",
                   "esquema_source": "silver"
                 }
